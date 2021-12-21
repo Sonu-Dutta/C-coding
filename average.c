@@ -7,13 +7,13 @@ float average(int a , int b ,int c)
 }int main()
 {
     int d,e,f;
-    printf("enter a number = ");
+    printf("Enter a number-1 = ");
     scanf("%d",&d);
-    printf("enter a number = ");
+    printf("Enter a number-2 = ");
     scanf("%d",&e);
-    printf("enter a number = ");
+    printf("Enter a number-3 = ");
     scanf("%d",&f);
-    printf("the average is %.3f", average(d,e,f));
+    printf("The average of is %.3f", average(d,e,f));
     
     return 0;
 }
