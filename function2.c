@@ -1,3 +1,4 @@
+/*Addition of two numbers using function*/
 #include<stdio.h>
 int sum(int a , int b)
 {
