@@ -7,11 +7,11 @@ int sum(int a , int b)
 }
 int main(){
     int c,e,f;
-    printf("Enter a number = ");
+    printf("Enter number-1 = ");
     scanf("%d",&e);
-    printf("Enter a number = ");
+    printf("Enter number-2 = ");
     scanf("%d",&f);
     c=sum(e,f);
-    printf("The value of c is %d",c);
+    printf("The sum is %d",c);
     return 0;
 }
