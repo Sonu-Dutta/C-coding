@@ -1,3 +1,4 @@
+/*Average of 3 numbers*/
 #include<stdio.h>
 float average(int a , int b ,int c)
 {
