@@ -1,3 +1,4 @@
+/*Eg. of calloc*/
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
@@ -5,7 +6,7 @@ int main(){
     int n;
     printf("How many integers do you want to print : ");
     scanf("%d",&n);
-    ptr = (int*)calloc(6,sizeof(int));
+    ptr = (int*)calloc(n,sizeof(int));
     for (int i = 0; i < n; i++)
     {
         printf("Enter the value of %d element : ",i);
