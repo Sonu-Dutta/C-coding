@@ -1,27 +1,19 @@
+//Printing a number in ascending and descending order
 #include<stdio.h>
-
 int main()
 {
-
-    // int n;
-    // printf("enter a number = ");
-    // scanf("%d",&n);
-    // for (int i = n; i ; i--)
-    // {
-    //     printf("value of i is %d \n", i);
-    // }
-
-        int n;
-    printf("enter a number = ");
-    scanf("%d",n);
-    for (int i = 0; i<n ; i++)
+ printf("Enter a number = ");
+    scanf("%d",&n);
+    printf("\nNumbers in ascending order");
+    for (int i = 1; i<=n ; i++)
     {
-        printf("value of i is %d \n", i);
-        if (i==10)
-        {
-            break;
-        }
-        
+        printf("\nvalue of i is %d ", i);
+      
+     }
+     printf("\n \nNumbers in descending order");
+      for (int i = n; i ; i--)
+    {
+        printf("\nvalue of i is %d ", i);
     }
     return 0;
 }
