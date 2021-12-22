@@ -1,5 +1,5 @@
+//find net income 
 #include<stdio.h>
-
 int main(){
     float tax = 0, income;
     printf("Enter your income = ");
