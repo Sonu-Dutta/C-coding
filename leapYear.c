@@ -1,8 +1,8 @@
+//find the given year is leap-year or not
 #include<stdio.h>
-
 int main(){
     int year;
-    printf("enter the year = ");
+    printf("Enter the year = ");
     scanf("%d",&year);
     if (year%400==0)
     {
