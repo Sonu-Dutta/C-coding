@@ -1,3 +1,4 @@
+// functions and pointer example:
 #include<stdio.h>
 void sum_avg(int a,int b, int*sum, float*avg)
 {
@@ -5,7 +6,7 @@ void sum_avg(int a,int b, int*sum, float*avg)
     *avg=(float)(*sum)/2;
 }
 int main(){
-    int a=5, b=6 , sum;
+    int a=15, b=4 , sum;
     float avg;
     sum_avg(a,b,&sum,&avg);
     printf("Sum of a and b is %d\n",sum);
