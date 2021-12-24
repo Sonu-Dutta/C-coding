@@ -1,5 +1,5 @@
+// Array-pointer example:
 #include <stdio.h>
-
 int main()
 {
     int n;
@@ -15,7 +15,6 @@ int main()
         scanf("%d", ptr);
         ptr++;
     }
-
     for (int i = 0; i < n; i++)
     {
         printf("The value of marks for student %d = %d \n", i + 1, marks[i]);
