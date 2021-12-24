@@ -1,3 +1,4 @@
+// Sructure, if-else example: Comparison of dates
 #include <stdio.h>
 #include <string.h>
 typedef struct date
@@ -46,8 +47,8 @@ int datecmp(date d1, date d2)
 }
 int main()
 {
-    date d1 = {5, 4, 21};
-    date d2 = {5, 4, 21};
+    date d1 = {15, 7, 21};
+    date d2 = {23, 4, 19};
     display(d1);
     display(d2);
     int a = datecmp(d1, d2);
