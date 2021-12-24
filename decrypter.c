@@ -1,3 +1,4 @@
+// string and pointer example:
 #include <stdio.h>
 void decrypt(char *c)
 {
@@ -8,7 +9,6 @@ void decrypt(char *c)
         ptr++;
     }
 }
-
 int main()
 {
     char c[100];
