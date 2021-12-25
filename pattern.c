@@ -1,3 +1,4 @@
+// pyramid-pattern printing
 #include<stdio.h>
 void pattern(int n)
 {
