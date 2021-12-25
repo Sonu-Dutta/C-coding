@@ -1,5 +1,5 @@
+// Multi-dimensional array example:
 #include <stdio.h>
-
 int main()
 {
     int stud, sub, n;
@@ -22,8 +22,7 @@ int main()
         }
     }
     
-    printf("\nX----X----result----X----X\n");
-
+    printf("\nX-------------result--------------X\n");
     for (int i = 0; i < stud; i++)
     {
         for (int j = 0; j < sub; j++)
@@ -32,10 +31,8 @@ int main()
             {
                 printf("\n");
             }
-
             printf("The marks of student %d in subject %d = %d \n", i + 1, j + 1, marks[i][j]);
         }
     }
-
     return 0;
 }
