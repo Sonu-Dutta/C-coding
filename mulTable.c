@@ -1,7 +1,5 @@
-// Multiplication table generator
-
+// Multiplication table generator upto desired number
 #include <stdio.h>
-
 int main()
 {
     int n,v;
@@ -15,7 +13,6 @@ int main()
     {
         mul[i]=n*(i+1);
         printf("%d X %d = %d\n",n,i+1,mul[i]);
-    }
-    
+    } 
     return 0;
 }
