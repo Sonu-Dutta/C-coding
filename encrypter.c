@@ -1,14 +1,14 @@
+// char example:
 #include <stdio.h>
-void encrypt(char *c)
+void encrypt(char *m)
 {
-    char *ptr = c;
+    char *ptr = m;
     while (*ptr != '\0')
     {
         *ptr = *ptr + 1;
         ptr++;
     }
 }
-
 int main()
 {
     char c[100];
