@@ -6,7 +6,7 @@ int main()
     printf("Enter the number of students = ");
     scanf("%d", &stud);
     printf("Enter the number of subjects = ");
-    scanf("%d", &sub, &n);
+    scanf("%d", &sub);
     int marks[stud][sub];
     for (int i = 0; i < stud; i++)
     {
