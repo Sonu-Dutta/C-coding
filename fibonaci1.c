@@ -1,3 +1,4 @@
+// printing fibonacci series using recursion
 #include<stdio.h>
 void fibonacci(int n)
 {
@@ -9,8 +10,7 @@ void fibonacci(int n)
         n2=n3;
         printf(" %d ",n3);
         fibonacci(n-1);
-    }
-    
+    }    
 }
 int main()
 {
