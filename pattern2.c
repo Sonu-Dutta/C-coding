@@ -1,5 +1,5 @@
+// pattern-printing
 #include<stdio.h>
-
 int main(){
     int i ,j ,row;
     printf("Enter the number of rows = ");
@@ -8,10 +8,9 @@ int main(){
     {
         for ( j = 0; j <= i; ++j)
         {
-            printf("# ");
+            printf(" S");
         }
         printf("\n");        
-    }
-    
+    }   
     return 0;
 }
