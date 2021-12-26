@@ -1,3 +1,4 @@
+//reversing array
 #include <stdio.h>
 void reverse(int *arr, int n)
 {
@@ -15,7 +16,7 @@ int main()
     reverse(arr, 7);
     for (int i = 0; i < 7; i++)
     {
-        printf("The value of %d element is %d\n", i, arr[i]);
+        printf("The value of %d element is %d\n", 7-i-1, arr[i]);
     }
 
     return 0;
