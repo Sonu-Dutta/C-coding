@@ -7,6 +7,6 @@ int main(){
     printf("%s\n",str);
     
     int a =strlen(str);
-    printf("the length of string is %d ",a);
+    printf("The length of string is %d ",a);
     return 0;
 }
