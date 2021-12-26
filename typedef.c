@@ -1,3 +1,4 @@
+//typedef struct example:
 #include <stdio.h>
 #include <string.h>
 
@@ -20,7 +21,7 @@ int main()
     em *ptr;   
     ptr = &e;
     ptr->code = 108;
-    ptr->salary = 9900000;
+    ptr->salary = 990000.6780;
     strcpy(ptr->name, "Anjana");
    
     show(e);
