@@ -1,6 +1,6 @@
+//pointer in Structure :
 #include <stdio.h>
 #include <string.h>
-
 struct employee
 {
     int code;
@@ -12,9 +12,9 @@ int main()
     struct employee e;
     struct employee *ptr;
     ptr=&e;
-    //(*ptr).code=101;
+    //(*ptr).code=250;
     //OR
-    ptr->code=101;
+    ptr->code=250;
 
     printf(" code: %d \n", e.code);
     printf(" code: %d \n", (*ptr).code);
